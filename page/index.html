@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>page</title>
+    <link rel="stylesheet" href="./example.css"/>
+</head>
+<body ontouchstart>
+    <a href="#page1" class="btn">page1</a>
+    <a href="#page2" class="btn">page2</a>
+    <div class="page_container">
+    </div>
+    <script type="text/html" id="tpl_page">
+
+    </script>
+    <script type="text/html" id="tpl_page1">
+        <div class="page" style="background: rgb(138, 232, 212)">page1</div>
+    </script>
+    <script type="text/html" id="tpl_page2">
+        <div class="page" style="background: green">page2</div>
+    </script>
+    <script src="./zepto.min.js"></script>
+    <script src="./example.js"></script>
+</body>
+</html>
